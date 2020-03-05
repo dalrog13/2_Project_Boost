@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7608915165339451061}
   m_Layer: 0
   m_Name: Obstacle
-  m_TagString: Untagged
+  m_TagString: Friendly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 7608915165339451060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -19.52, y: 4.65, z: 0}
-  m_LocalScale: {x: 1.5811561, y: 12.669985, z: 6.9955807}
+  m_LocalScale: {x: 5.773382, y: 8.948439, z: 8.2738}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -58,7 +58,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 472b34278f1d8b945bd3055f7117757a, type: 2}
+  - {fileID: 2100000, guid: 8ca9c3e82303d734e873bb545e9b8753, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
