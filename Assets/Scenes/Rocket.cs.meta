@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 7291f6cfdbab32448906ab4a388a4b9b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - mainEngine: {fileID: 8300000, guid: aa920f14b929cd14ead1b74225237503, type: 3}
+  - levelComplete: {fileID: 8300000, guid: 60f8c2df1cbfbff4bacce3a10c88c325, type: 3}
+  - rocketCrash: {fileID: 8300000, guid: fe4c421c51f639844ad1513cc1c4bb1e, type: 3}
+  - mainEngineParticles: {instanceID: 0}
+  - levelCompleteParticles: {instanceID: 0}
+  - rocketCrashParticles: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

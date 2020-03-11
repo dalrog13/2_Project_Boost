@@ -1858,18 +1858,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 960300774, guid: 42e598680e0737c47b2e983a2f35a24c, type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 960300774, guid: 42e598680e0737c47b2e983a2f35a24c, type: 3}
-      propertyPath: m_Drag
-      value: 1.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 960300774, guid: 42e598680e0737c47b2e983a2f35a24c, type: 3}
-      propertyPath: m_AngularDrag
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 5649438623351009052, guid: 42e598680e0737c47b2e983a2f35a24c,
         type: 3}
       propertyPath: m_Name
@@ -1929,11 +1917,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5715092055022933328, guid: 42e598680e0737c47b2e983a2f35a24c,
-        type: 3}
-      propertyPath: mainThrust
-      value: 2000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42e598680e0737c47b2e983a2f35a24c, type: 3}

@@ -13,11 +13,12 @@ public class Rocket : MonoBehaviour
     [SerializeField] ParticleSystem mainEngineParticles;
     [SerializeField] ParticleSystem levelCompleteParticles;
     [SerializeField] ParticleSystem rocketCrashParticles;
+    [SerializeField] float levelLoadDelay = 2f;
     Rigidbody rigidBody;
     AudioSource audioSource;
     enum State { Alive, Dying, Transcending }
     State state = State.Alive;
-
+    
 
     // Start is called before the first frame update
     void Start()
@@ -66,7 +67,7 @@ public class Rocket : MonoBehaviour
         audioSource.Stop();
         audioSource.PlayOneShot(rocketCrash);
         rocketCrashParticles.Play();
-        Invoke("BackToStart", 2f);
+        Invoke("BackToStart", levelLoadDelay);
     }
 
     private void startLevelComplete()
@@ -86,7 +87,9 @@ public class Rocket : MonoBehaviour
 
     private void LoadNextLevel()
     {
+    
         SceneManager.LoadScene(1);
+        
     }
 
     private void RespondToRotateInput()
@@ -126,7 +129,7 @@ public class Rocket : MonoBehaviour
 
     private void ApplyThrust(float thrustThisFrame)
     {
-        rigidBody.AddRelativeForce(Vector3.up * thrustThisFrame);
+        rigidBody.AddRelativeForce(Vector3.up * thrustThisFrame * Time.deltaTime);
         if (!audioSource.isPlaying)
         {
             audioSource.PlayOneShot(mainEngine);
